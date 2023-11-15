@@ -16,5 +16,7 @@ model = YOLO('./best.pt')  # Load an official Detect model
 files = glob.glob("./video/*.mp4")
 
 for path in files:
-    results = model.track(source=path, show=False, tracker="bytetrack.yaml", save_txt=True, save=True, save_conf=True)  # Tracking with ByteTrack tracker
+    results = model.track(source=path, show=False, tracker="bytetrack.yaml", stream=True, save_txt=True, save=True, save_conf=True)  # Tracking with ByteTrack tracker
+    for r in results:
+        pass
 # print(results)

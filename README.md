@@ -66,6 +66,3 @@ If you prefer to do training by yourself, please do this part before doing part 
      (the directory where you downloaded the git file)/fishtracking  
 
  rename or delete the file with the same name that preceded it
-
-## This is a fish tracking code based on the Ultralytics code https://github.com/ultralytics/ultralytics
-## 

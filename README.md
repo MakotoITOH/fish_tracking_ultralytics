@@ -2,6 +2,7 @@
 This is a fish tracking code based on the Ultralytics code https://github.com/ultralytics/ultralytics  
 It has been trained and tuned to work on the experimental video that is the subject of the FishTrackingChallenge2024.  
 It can be used as a baseline program for the FishTrackingChallenge2024.  
+If you want to send the result of this program to the FishTrackingChallenge2024, you can use "tran_mot_challenge.py" to summalize the results for MOT format which are needed for the challenge.  
 
 # Handling instructions (for beginners)
 

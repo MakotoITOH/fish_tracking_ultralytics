@@ -1,7 +1,6 @@
 # ReadMe
-This is a fish tracking code based on the Ultralytics code https://github.com/ultralytics/ultralytics  
-It has been trained and tuned to work on the experimental video that is the subject of the FishTrackingChallenge2024.  
-It can be used as a baseline program for the FishTrackingChallenge2024.  
+This is a code for a baseline program for the FishTrackingChallenge2024 (https://ftc-2024.github.io/).  
+The code is based on https://github.com/MakotoITOH/fish_tracking_ultralytics to use a fine-tuned detection model (YOLOv8 with sweetfish images) and a tracking (ByteTrack) model.  
 If you want to send the result of this program to the FishTrackingChallenge2024, you can use "tran_mot_challenge.py" to summalize the results for MOT format which are needed for the challenge.  
 
 # Handling instructions (for beginners)
@@ -67,3 +66,11 @@ If you prefer to do training by yourself, please do this part before doing part 
      (the directory where you downloaded the git file)/fishtracking  
 
  rename or delete the file with the same name that preceded it
+
+
+## to fine-tune the YOLOv8 model
+
+see https://github.com/huqingrui/ultralytics_fish_tracking
+## Reference
+
+https://github.com/ultralytics/ultralytics

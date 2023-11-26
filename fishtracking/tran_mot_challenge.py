@@ -37,9 +37,12 @@ def trans_formate_mot_challenge(input_folder, output_path):
                         res_file.write("\n")
         res_file.close()
 
+open('answer.txt', 'w')
 
 if __name__ == '__main__':
-    input_folder = r"C:\Users\Makoto\git\ultralytics_fish_tracking\runs\detect\predict\labels"  # change the right path
-    output_path = r"C:\Users\Makoto\git\ultralytics_fish_tracking\fishtracking\test.txt"  # you can rename it
+    input_folder = r"content\fish_tracking_ultralytics\fishtracking\runs\detect\predict\labels"  # change the right path
+    output_path = r"content\fish_tracking_ultralytics\fishtracking\answer.txt"  # change the right path
+
+
 
     trans_formate_mot_challenge(input_folder, output_path)

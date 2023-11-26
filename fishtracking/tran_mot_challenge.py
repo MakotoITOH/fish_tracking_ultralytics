@@ -39,7 +39,7 @@ def trans_formate_mot_challenge(input_folder, output_path):
 
 if __name__ == '__main__':
     input_folder = r'/content/fish_tracking_ultralytics/fishtracking/runs/detect/predict/labels'  # change the right path
-    output_path =  'answer.txt'  # change the right path
+    output_path =  'answer.txt'  # you can rename it
 
 
 
